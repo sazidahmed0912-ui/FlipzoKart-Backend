@@ -1,0 +1,69 @@
+// A to Z Modern Order Confirmation UI Prompt
+
+// 1. Visual Design Prompt (for AI image generator or UI designer):
+
+/*
+Create a modern, clean 'Order Confirmation' UI design for an e-commerce site.
+
+A. Header: Large green checkmark icon with 'Order Successful' in bold typography.
+B. Order Info Bar: A horizontal grey strip showing Order ID, Date, Payment Status, and Order Status with clear labels.
+C. Details Section: Two side-by-side cards with subtle borders.
+   - Left card: 'Customer Information' (Name, Phone, Email)
+   - Right card: 'Shipping Address' (Full address string)
+D. Styling: Use a soft color palette (mint green and white), 12px rounded corners, and 'Inter' font.
+E. All placeholder dashes ('—') should be replaced with realistic sample data to show a 'live' state.
+F. Ensure generous padding, whitespace, and a premium, trustworthy look.
+G. Responsive: Should look great on both desktop and mobile.
+H. Use subtle drop shadows for card elevation.
+I. Use clear, modern iconography for status and payment.
+J. Typography: Large, bold for headers; medium for labels; regular for values.
+K. Add a subtle background pattern or gradient for extra polish.
+L. Use a sticky or prominent 'Continue Shopping' button at the bottom.
+M. Accessibility: High contrast, readable font sizes, and alt text for icons.
+N. Animation: Subtle fade-in or checkmark animation for success feedback.
+O. Consistent spacing between all elements.
+P. Use a horizontal divider between header and details section.
+Q. Show a small order summary (product names, qty, price) below the info bar (optional).
+R. Add a support/help section with WhatsApp/email at the bottom.
+S. Use a progress bar or stepper at the top (optional, for multi-step checkout).
+T. All icons should be SVG or high-res PNG.
+U. Use a soft shadow for the main card container.
+V. Use a mint green accent for highlights and buttons.
+W. All text should use the 'Inter' font family.
+X. Use a subtle hover effect on buttons.
+Y. Show a realistic sample order (e.g., Order ID: ORD123456, Date: 25 Dec 2025, Payment: Paid, Status: Confirmed).
+Z. Ensure the design feels modern, premium, and trustworthy.
+*/
+
+// 2. Developer Logic Prompt (for React/HTML/JS):
+
+/*
+Write a clean React component for an Order Success page. It should receive 'customerDetails' and 'shippingAddress' as props. If the data is present, display it in a structured 2-column layout. If data is missing, show a 'Loading...' state instead of empty dashes. Style it using Tailwind CSS with a professional card-based design.
+
+A. Use a mint green and white color palette.
+B. 12px rounded corners for all cards and buttons.
+C. Use 'Inter' font for all text.
+D. Header: Large green checkmark and 'Order Successful' text.
+E. Order Info Bar: Show Order ID, Date, Payment Status, Order Status with sample data if not provided.
+F. Details Section: Two cards, left for customer info, right for shipping address.
+G. Responsive: Stack cards on mobile, side-by-side on desktop.
+H. Show 'Loading...' if any data is missing.
+I. Add a 'Continue Shopping' button at the bottom.
+J. Use realistic sample data for demo/development.
+K. All icons should have alt text.
+L. Use Tailwind classes for all styling.
+M. Add subtle drop shadows for elevation.
+N. Use clear, bold typography for headers and labels.
+O. Ensure all spacing and padding is consistent.
+P. Add a support/help section at the bottom (WhatsApp/email).
+Q. Animate the checkmark icon on mount (optional).
+R. Use a horizontal divider between header and details.
+S. Show a small order summary below info bar (optional).
+T. Ensure accessibility and keyboard navigation.
+U. Use a sticky bottom bar for the main action button (optional).
+V. All placeholder dashes should be replaced with sample data.
+W. Use a soft hover effect on interactive elements.
+X. Ensure the design is visually appealing and modern.
+Y. Use SVG icons for best quality.
+Z. Test with both real and sample data for completeness.
+*/
